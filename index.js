@@ -22,10 +22,10 @@ app.get("/singer/:id.html", (req,res) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>${result.sing_name} 的頁面</title>
+        <title>${result.singer_name} 的頁面</title>
     </head>
     <body>
-        <h1>${result.sing_name} 的頁面</h1>
+        <h1>${result.singer_name} 的頁面</h1>
         <img src="${result.singer_img}" alt="">
     </body>
     </html>`);
